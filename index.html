@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="" class="selected">View Music</a></li>
+			<li><a href="">Add Music</a></li>
+			<li><a href="">Profile</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="col" id="form">
+			<form>
+				<fieldset>
+					<label for="song_length">Song Length:</label>
+					<input type="range" id="song_length">
+				</fieldset>
+
+				<fieldset>
+					<label for="artist">Artist:</label>
+					<select name="artist" id="artist">
+						<option>Agnes Obel</option>
+						<option>Alt-J</option>
+						<option>Nav</option>
+						<option>Nina K</option>
+						<option>Migos</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label for="album">Album:</label>
+					<select name="album" id="album">
+						<option></option>
+						<option></option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<legend>Genre:</legend>
+					<table>
+						<tr>
+							<td><input type="checkbox" name="genre" id="rock" value="rock">
+							<label for="rock">Rock</label></td>
+
+							<td><input type="checkbox" name="genre" id="classical" value="classical">
+							<label for="classical">Classical</label></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="genre" id="pop" value="pop">
+							<label for="pop">Pop</label></td>
+
+							<td><input type="checkbox" name="genre" id="jazz" value="jazz">
+							<label for="jazz">Jazz</label></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="genre" id="blues" value="blues">
+							<label for="blues">Blues</label></td>
+
+							<td><input type="checkbox" name="genre" id="hip-hop" value="hip-hop">
+							<label for="hip-hop">Hip Hop</label></td>
+						</tr>
+					</table>
+				</fieldset>
+				<div><input type="button" id="filter" value="Filter"></div>
+			</form>
+		</div>
+
+		<div id="songList">
+			<p class="songName">Song Name</p>
+			<ul>
+				<li>Artist</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+
+			<p class="songName">Song Name</p>
+			<ul>
+				<li>Artist</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+
+			<p class="songName">Song Name</p>
+			<ul>
+				<li>Artist</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+
+			<p class="songName">Song Name</p>
+			<ul>
+				<li>Artist</li>
+				<li>Album name</li>
+				<li>Genre</li>
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

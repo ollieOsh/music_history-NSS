@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav, form, #songList, input {
+	border: 2px solid black;
+}
+
+body{
+	font-family: sans-serif;
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+nav {
+	background-color: #FFB4B0;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+nav ul {
+	display: inline-block;
+	margin-top: 12px;
+}
+
+ul > li:not(:first-child){
+	border-left: 2px solid black;
+	padding-left: 5px;
+}
+
+.selected {
+	color: black;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	border-collapse: separate;
+	border-spacing: 15px;
+}
+
+form {
+	background-color: #4DD7FA;
+	flex-grow: 1;
+	font-size: .9em;
+	margin-right: 15px;
+}
+
+fieldset {
+	border: none;
+	margin: 15px 0 10px 10px;
+}
+
+#songList {
+	background-color: #FEFAC0;
+	flex-grow: 3;
+	width: 75%;
+}
+
+div > p {
+	color: #785616;
+	font-size: 1.6em;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+ul {
+	margin: 20px 0 0 15px;
+}
+
+ul li {
+	display: inline;
+	font-size: .9em;
+}
+
+
+input[type="range"], select, tr{
+	width: 80%;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+input[type="checkbox"] {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#filter {
+	margin: 15px 40px;
+	width: 100px;
+	height: 25px;
+	border-radius: 5px;
+	font-size: 1em;
+}
