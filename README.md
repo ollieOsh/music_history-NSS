@@ -1,1 +1,1 @@
-music history project spanning the course of frontend development course at NSS
+music history project spanning the length of frontend development course at NSS
